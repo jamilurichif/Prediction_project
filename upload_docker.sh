@@ -5,13 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=richifa/udacity-devops-project
+dockerpath=richifa/sldemo
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker --tag udacity-devops-project $dockerpath:latest
+docker --tag sldemo $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
